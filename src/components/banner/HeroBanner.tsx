@@ -7,13 +7,13 @@ export function HeroBanner() {
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center"
                 style={{
-                    backgroundImage: 'url("/images/banner.png")',
+                    backgroundImage: 'url("/images/banner2.png")',
                     filter: "brightness(0.9)",
                 }}
             />
 
             {/* Card Content */}
-            <div className="relative z-10 py-20">
+            <div className="relative z-5 py-20 xl:mt-0 md:mt-5 lg:mt-5 mt-10">
                 <SearchCard />
             </div>
         </section>

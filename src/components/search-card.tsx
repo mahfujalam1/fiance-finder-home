@@ -119,14 +119,14 @@ export const SearchCard=()=> {
                                 <Button
                                     type="button"
                                     onClick={nextStep}
-                                    className="flex-1 cursor-pointer bg-primary hover:bg-primary/90 text-white rounded-md py-6 text-lg font-semibold shadow-md"
+                                    className="flex-1 btn py-6 font-semibold text-lg shadow-md"
                                 >
                                     Next
                                 </Button>
                             ) : (
                                 <Button
                                     type="submit"
-                                    className="flex-1 cursor-pointer bg-primary hover:bg-primary/90 text-white rounded-md py-6 text-lg font-semibold shadow-md"
+                                        className="flex-1 btn py-6 font-semibold text-lg shadow-md"
                                 >
                                     Submit
                                 </Button>
