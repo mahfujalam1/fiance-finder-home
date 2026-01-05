@@ -8,6 +8,14 @@
 }
 
 
+.featured-bg {
+  background-image: url('/events/bgImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(75deg, rgba(13, 9, 9, 0.7), rgba(10, 9, 9, 0.7)) url(latestnews),
+}
+
+
 
 :root {
   --background: oklch(1 0 0);
@@ -128,6 +136,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground ;
   }
 }

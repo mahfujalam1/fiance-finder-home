@@ -3,7 +3,7 @@ export const SectionHeader = ({
     description,
     color, // Default purple color
     borderWidth
-}:any) => {
+}: any) => {
     return (
         <div className="text-center max-w-3xl mx-auto px-4 py-8">
             <h2

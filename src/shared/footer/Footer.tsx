@@ -21,17 +21,8 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Company Info Section */}
                     <div className="space-y-2">
-                        <div className="flex items-center gap-2 mb-4">
-                            <div className="bg-white rounded px-3 py-1">
-                                <span className="text-2xl font-bold">
-                                    <span className="text-pink-600">i</span>
-                                    <span className="text-blue-600">T</span>
-                                    <span className="text-orange-500">H</span>
-                                    <span className="text-green-500">o</span>
-                                    <span className="text-purple-600">s</span>
-                                    <span className="text-pink-600">t</span>
-                                </span>
-                            </div>
+                        <div className="font-bold text-primary text-3xl">
+                            {process.env.NEXT_PUBLIC_PROJECT_NAME}
                         </div>
                         <p className="text-sm">7th Floor, Fair Plaza</p>
                         <p className="text-sm">Mirpur-1, Dhaka-1216</p>
@@ -79,7 +70,7 @@ const Footer = () => {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 onKeyPress={(e) => e.key === 'Enter' && handleSubscribe()}
-                                className=""
+                                className="border border-primary"
                             />
                             <Button
                                 onClick={handleSubscribe}
