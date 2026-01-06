@@ -17,7 +17,6 @@ export function FormSelect({ name, placeholder, options, form }: FormSelectProps
             control={form.control}
             name={name}
             render={({ field }) => {
-                console.log(field)
                 return <FormItem className="w-full space-y-0">
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>

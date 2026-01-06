@@ -61,7 +61,7 @@ export default function EventManagement() {
                 </h2>
             </div>
 
-            <div className="container mx-auto px-4 py-16">
+            <div className="max-w-7xl mx-auto md:px-0 px-4 py-16">
                 <SectionHeader title="Event Management" description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
                         clita kasd" color='text-primary' borderWidth="w-60" />

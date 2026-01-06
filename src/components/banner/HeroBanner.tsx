@@ -13,7 +13,7 @@ export function HeroBanner() {
             />
 
             {/* Card Content */}
-            <div className="relative z-5 py-20 xl:mt-0 md:mt-5 lg:mt-5 mt-10">
+            <div className="relative z-5 mt-0 md:mt-20">
                 <SearchCard />
             </div>
         </section>

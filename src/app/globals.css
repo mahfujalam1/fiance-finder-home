@@ -7,16 +7,6 @@
   @apply bg-gradient-to-r from-[#65CBE2] to-[#346FB7] hover:bg-gradient-to-r hover:from-[#346FB7] hover:to-[#65CBE2] transition-all duration-500 text-white cursor-pointer;
 }
 
-
-.featured-bg {
-  background-image: url('/events/bgImage.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: linear-gradient(75deg, rgba(13, 9, 9, 0.7), rgba(10, 9, 9, 0.7)) url(latestnews),
-}
-
-
-
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
